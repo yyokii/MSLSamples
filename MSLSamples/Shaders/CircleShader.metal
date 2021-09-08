@@ -10,6 +10,9 @@
 
 using namespace metal;
 
+/*
+ https://www.shadertoy.com/view/XsjGDt
+ */
 fragment float4 fragment_circle(float4 pixPos [[position]],
                               constant float2& res [[buffer(0)]]) {
     
