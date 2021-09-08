@@ -15,6 +15,10 @@
 		F5D534F226E865CD0002CD56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D534F026E865CD0002CD56 /* LaunchScreen.storyboard */; };
 		F5D534FD26E865CD0002CD56 /* MSLSamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D534FC26E865CD0002CD56 /* MSLSamplesTests.swift */; };
 		F5D5350726E865CD0002CD56 /* MSLSamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D5350626E865CD0002CD56 /* MSLSamplesUITests.swift */; };
+		F5D5351426E869270002CD56 /* GPUDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D5351326E869270002CD56 /* GPUDevice.swift */; };
+		F5D5351626E86CD10002CD56 /* VertexShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F5D5351526E86CD10002CD56 /* VertexShader.metal */; };
+		F5D5351D26E8CCB80002CD56 /* CircleShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F5D5351C26E8CCB80002CD56 /* CircleShader.metal */; };
+		F5D5352126E8D9890002CD56 /* Common.metal in Sources */ = {isa = PBXBuildFile; fileRef = F5D5352026E8D9890002CD56 /* Common.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,11 @@
 		F5D534FC26E865CD0002CD56 /* MSLSamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSLSamplesTests.swift; sourceTree = "<group>"; };
 		F5D5350226E865CD0002CD56 /* MSLSamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSLSamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D5350626E865CD0002CD56 /* MSLSamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSLSamplesUITests.swift; sourceTree = "<group>"; };
+		F5D5351326E869270002CD56 /* GPUDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUDevice.swift; sourceTree = "<group>"; };
+		F5D5351526E86CD10002CD56 /* VertexShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = VertexShader.metal; sourceTree = "<group>"; };
+		F5D5351C26E8CCB80002CD56 /* CircleShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CircleShader.metal; sourceTree = "<group>"; };
+		F5D5352026E8D9890002CD56 /* Common.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Common.metal; sourceTree = "<group>"; };
+		F5D5352226E8D9B90002CD56 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +106,10 @@
 		F5D534E426E865CC0002CD56 /* MSLSamples */ = {
 			isa = PBXGroup;
 			children = (
+				F5D5351926E8CC7F0002CD56 /* Shaders */,
 				F5D534E526E865CC0002CD56 /* AppDelegate.swift */,
 				F5D534E726E865CC0002CD56 /* SceneDelegate.swift */,
+				F5D5351326E869270002CD56 /* GPUDevice.swift */,
 				F5D534E926E865CC0002CD56 /* ViewController.swift */,
 				F5D534EB26E865CC0002CD56 /* Main.storyboard */,
 				F5D534EE26E865CD0002CD56 /* Assets.xcassets */,
@@ -122,6 +133,17 @@
 				F5D5350626E865CD0002CD56 /* MSLSamplesUITests.swift */,
 			);
 			path = MSLSamplesUITests;
+			sourceTree = "<group>";
+		};
+		F5D5351926E8CC7F0002CD56 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				F5D5351526E86CD10002CD56 /* VertexShader.metal */,
+				F5D5351C26E8CCB80002CD56 /* CircleShader.metal */,
+				F5D5352026E8D9890002CD56 /* Common.metal */,
+				F5D5352226E8D9B90002CD56 /* Common.h */,
+			);
+			path = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,11 @@
 			files = (
 				F5D534EA26E865CC0002CD56 /* ViewController.swift in Sources */,
 				F5D534E626E865CC0002CD56 /* AppDelegate.swift in Sources */,
+				F5D5351D26E8CCB80002CD56 /* CircleShader.metal in Sources */,
+				F5D5351426E869270002CD56 /* GPUDevice.swift in Sources */,
+				F5D5352126E8D9890002CD56 /* Common.metal in Sources */,
 				F5D534E826E865CC0002CD56 /* SceneDelegate.swift in Sources */,
+				F5D5351626E86CD10002CD56 /* VertexShader.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
