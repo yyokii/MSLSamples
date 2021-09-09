@@ -20,6 +20,7 @@
 		F5D5351D26E8CCB80002CD56 /* CircleShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F5D5351C26E8CCB80002CD56 /* CircleShader.metal */; };
 		F5D5352126E8D9890002CD56 /* Common.metal in Sources */ = {isa = PBXBuildFile; fileRef = F5D5352026E8D9890002CD56 /* Common.metal */; };
 		F5E0D8DC26E8F5E900200C81 /* PalettesShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F5E0D8DB26E8F5E900200C81 /* PalettesShader.metal */; };
+		F5E0D91626E99C6100200C81 /* NeonCurveShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F5E0D91526E99C6100200C81 /* NeonCurveShader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		F5D5352026E8D9890002CD56 /* Common.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Common.metal; sourceTree = "<group>"; };
 		F5D5352226E8D9B90002CD56 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		F5E0D8DB26E8F5E900200C81 /* PalettesShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = PalettesShader.metal; sourceTree = "<group>"; };
+		F5E0D91526E99C6100200C81 /* NeonCurveShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = NeonCurveShader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				F5D5352026E8D9890002CD56 /* Common.metal */,
 				F5D5352226E8D9B90002CD56 /* Common.h */,
 				F5E0D8DB26E8F5E900200C81 /* PalettesShader.metal */,
+				F5E0D91526E99C6100200C81 /* NeonCurveShader.metal */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E0D91626E99C6100200C81 /* NeonCurveShader.metal in Sources */,
 				F5D534EA26E865CC0002CD56 /* ViewController.swift in Sources */,
 				F5D534E626E865CC0002CD56 /* AppDelegate.swift in Sources */,
 				F5D5351D26E8CCB80002CD56 /* CircleShader.metal in Sources */,
