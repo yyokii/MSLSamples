@@ -13,6 +13,15 @@ using namespace metal;
 /*
  https://www.shadertoy.com/view/XsjGDt
  */
+
+float4 circle(float2 uv, float2 pos, float rad, float3 color) {
+    float d = length(pos - uv) - rad;
+    
+    // https://cpprefjp.github.io/reference/algorithm/clamp.html
+    float t = clamp(d, 0.0, 1.0);
+    return float4(color, 1.0 - t);
+}
+
 fragment float4 fragment_circle(float4 pixPos [[position]],
                               constant float2& res [[buffer(0)]]) {
     

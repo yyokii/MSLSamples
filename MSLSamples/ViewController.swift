@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         
         let pipelineStateDescriptor = MTLRenderPipelineDescriptor()
         pipelineStateDescriptor.vertexFunction = GPUDevice.shared.vertexFunction
-        pipelineStateDescriptor.fragmentFunction = gpu.library.makeFunction(name: "fragment_neon_curve")
+        pipelineStateDescriptor.fragmentFunction = gpu.library.makeFunction(name: "fragment_colorful_circles")
         pipelineStateDescriptor.colorAttachments[0].pixelFormat = .bgra8Unorm
         
         pipelineState = try! gpu.device.makeRenderPipelineState(descriptor: pipelineStateDescriptor)

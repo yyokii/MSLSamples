@@ -8,7 +8,9 @@
 #ifndef Common_h
 #define Common_h
 
+float mod(float a, float b) ;
+float2 mod(float2 a, float2 b);
+
 float3 rgb(float r, float g, float b);
-float4 circle(float2 uv, float2 pos, float rad, float3 color);
 
 #endif /* Common_h */
