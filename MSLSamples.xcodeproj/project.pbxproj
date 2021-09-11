@@ -23,6 +23,7 @@
 		F5E0D91626E99C6100200C81 /* NeonCurveShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F5E0D91526E99C6100200C81 /* NeonCurveShader.metal */; };
 		F5E0D91E26EB99A200200C81 /* ColorfulCirclesShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F5E0D91D26EB99A200200C81 /* ColorfulCirclesShader.metal */; };
 		F5E0D92026ECD8D300200C81 /* ShinyCircleShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F5E0D91F26ECD8D300200C81 /* ShinyCircleShader.metal */; };
+		F5E0D92226ECDF6A00200C81 /* MotionBlurCircleShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F5E0D92126ECDF6A00200C81 /* MotionBlurCircleShader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		F5E0D91526E99C6100200C81 /* NeonCurveShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = NeonCurveShader.metal; sourceTree = "<group>"; };
 		F5E0D91D26EB99A200200C81 /* ColorfulCirclesShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ColorfulCirclesShader.metal; sourceTree = "<group>"; };
 		F5E0D91F26ECD8D300200C81 /* ShinyCircleShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ShinyCircleShader.metal; sourceTree = "<group>"; };
+		F5E0D92126ECDF6A00200C81 /* MotionBlurCircleShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MotionBlurCircleShader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				F5E0D91526E99C6100200C81 /* NeonCurveShader.metal */,
 				F5E0D91D26EB99A200200C81 /* ColorfulCirclesShader.metal */,
 				F5E0D91F26ECD8D300200C81 /* ShinyCircleShader.metal */,
+				F5E0D92126ECDF6A00200C81 /* MotionBlurCircleShader.metal */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				F5D5351426E869270002CD56 /* GPUDevice.swift in Sources */,
 				F5D5352126E8D9890002CD56 /* Common.metal in Sources */,
 				F5D534E826E865CC0002CD56 /* SceneDelegate.swift in Sources */,
+				F5E0D92226ECDF6A00200C81 /* MotionBlurCircleShader.metal in Sources */,
 				F5E0D8DC26E8F5E900200C81 /* PalettesShader.metal in Sources */,
 				F5D5351626E86CD10002CD56 /* VertexShader.metal in Sources */,
 			);
