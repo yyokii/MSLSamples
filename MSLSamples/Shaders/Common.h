@@ -8,6 +8,8 @@
 #ifndef Common_h
 #define Common_h
 
+float deg2rad(float num);
+
 float mod(float a, float b) ;
 float2 mod(float2 a, float2 b);
 
