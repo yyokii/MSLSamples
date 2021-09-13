@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5230C8826EFD7A400089810 /* NeonLinesShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F5230C8726EFD7A400089810 /* NeonLinesShader.metal */; };
 		F5D534E626E865CC0002CD56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D534E526E865CC0002CD56 /* AppDelegate.swift */; };
 		F5D534E826E865CC0002CD56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D534E726E865CC0002CD56 /* SceneDelegate.swift */; };
 		F5D534EA26E865CC0002CD56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D534E926E865CC0002CD56 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5230C8726EFD7A400089810 /* NeonLinesShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = NeonLinesShader.metal; sourceTree = "<group>"; };
 		F5D534E226E865CC0002CD56 /* MSLSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSLSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D534E526E865CC0002CD56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5D534E726E865CC0002CD56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				F5E0D91F26ECD8D300200C81 /* ShinyCircleShader.metal */,
 				F5E0D92126ECDF6A00200C81 /* MotionBlurCircleShader.metal */,
 				F5E0D92326EE2E7300200C81 /* SquareRippleAnimationShader.metal */,
+				F5230C8726EFD7A400089810 /* NeonLinesShader.metal */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -244,7 +247,7 @@
 				};
 			};
 			buildConfigurationList = F5D534DD26E865CC0002CD56 /* Build configuration list for PBXProject "MSLSamples" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -297,6 +300,7 @@
 			files = (
 				F5E0D92026ECD8D300200C81 /* ShinyCircleShader.metal in Sources */,
 				F5E0D91626E99C6100200C81 /* NeonCurveShader.metal in Sources */,
+				F5230C8826EFD7A400089810 /* NeonLinesShader.metal in Sources */,
 				F5D534EA26E865CC0002CD56 /* ViewController.swift in Sources */,
 				F5D534E626E865CC0002CD56 /* AppDelegate.swift in Sources */,
 				F5D5351D26E8CCB80002CD56 /* CircleShader.metal in Sources */,
