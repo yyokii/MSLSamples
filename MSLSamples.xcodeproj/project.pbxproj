@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F5230C8826EFD7A400089810 /* NeonLinesShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F5230C8726EFD7A400089810 /* NeonLinesShader.metal */; };
 		F52F71BC26F1215C00734289 /* Bubbles.metal in Sources */ = {isa = PBXBuildFile; fileRef = F52F71BB26F1215C00734289 /* Bubbles.metal */; };
+		F536EF2D26F22E280017D098 /* ElectroLineNoiseShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F536EF2C26F22E280017D098 /* ElectroLineNoiseShader.metal */; };
 		F5D534E626E865CC0002CD56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D534E526E865CC0002CD56 /* AppDelegate.swift */; };
 		F5D534E826E865CC0002CD56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D534E726E865CC0002CD56 /* SceneDelegate.swift */; };
 		F5D534EA26E865CC0002CD56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D534E926E865CC0002CD56 /* ViewController.swift */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		F5230C8726EFD7A400089810 /* NeonLinesShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = NeonLinesShader.metal; sourceTree = "<group>"; };
 		F52F71BB26F1215C00734289 /* Bubbles.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Bubbles.metal; sourceTree = "<group>"; };
+		F536EF2C26F22E280017D098 /* ElectroLineNoiseShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ElectroLineNoiseShader.metal; sourceTree = "<group>"; };
 		F5D534E226E865CC0002CD56 /* MSLSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSLSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D534E526E865CC0002CD56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5D534E726E865CC0002CD56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				F5E0D92326EE2E7300200C81 /* SquareRippleAnimationShader.metal */,
 				F5230C8726EFD7A400089810 /* NeonLinesShader.metal */,
 				F52F71BB26F1215C00734289 /* Bubbles.metal */,
+				F536EF2C26F22E280017D098 /* ElectroLineNoiseShader.metal */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				F5D5352126E8D9890002CD56 /* Common.metal in Sources */,
 				F5E0D92426EE2E7300200C81 /* SquareRippleAnimationShader.metal in Sources */,
 				F5D534E826E865CC0002CD56 /* SceneDelegate.swift in Sources */,
+				F536EF2D26F22E280017D098 /* ElectroLineNoiseShader.metal in Sources */,
 				F5E0D92226ECDF6A00200C81 /* MotionBlurCircleShader.metal in Sources */,
 				F5E0D8DC26E8F5E900200C81 /* PalettesShader.metal in Sources */,
 				F52F71BC26F1215C00734289 /* Bubbles.metal in Sources */,
@@ -421,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -476,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
